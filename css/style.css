@@ -1,0 +1,62 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+section {
+  font-family: Montserrat, sans-serif;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.white {
+  color: #fff;
+}
+
+.purple {
+  color: #7962bd;
+}
+
+#footer a,
+#footer p {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  body {
+    text-align: center;
+  }
+  .test-img {
+    margin-bottom: 1.2em;
+  }
+
+  .mar-bot {
+    margin-bottom: 3em;
+  }
+}
